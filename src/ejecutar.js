@@ -1,6 +1,6 @@
 const mdLinks = require('./index.js');
-const filePath = 'D:/WEB DEV/LABORATORIA/DEV010-md-links/test/pruebas/cosas.md';
-const validate = false; 
+const filePath = 'test/pruebas/';
+const validate = true; 
 
 mdLinks(filePath, validate)
 	.then((links) => {

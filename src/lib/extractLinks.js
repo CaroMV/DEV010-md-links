@@ -1,5 +1,9 @@
 const fs = require('fs');
-
+/**
+ * extractLinks its a function thats returns an array with the links found in a markdown file
+ * @param {string} filePath 
+ * @returns {Array<Array>}
+ */
 async function extractLinks(filePath) {
 	const markdownContent = await fs.promises.readFile(filePath, 'utf8');
 	const links = [];
