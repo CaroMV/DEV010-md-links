@@ -16,3 +16,4 @@ async function validateLinks(links) {
 }
 
 module.exports = validateLinks;
+// quitar async await

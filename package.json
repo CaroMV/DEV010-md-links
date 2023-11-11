@@ -17,6 +17,7 @@
     "jest": "^29.7.0"
   },
   "dependencies": {
+    "commander": "^11.1.0",
     "isomorphic-fetch": "^3.0.0",
     "marked": "^9.1.2"
   }

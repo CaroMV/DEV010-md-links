@@ -1,5 +1,5 @@
 const mdLinks = require('./index.js');
-const filePath = 'test/pruebas/';
+const filePath = 'test/pruebas/dirWithSubdirs';
 const validate = true; 
 
 mdLinks(filePath, validate)
